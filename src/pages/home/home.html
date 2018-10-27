@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+    <button ion-button="" menuToggle="">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+  </ion-header>
+
+<ion-content padding>
+  <h2>Bienvenue {{userDetails.username}}</h2>
+  <h3> {{userDetails.email}}</h3>
+
+  <ion-card>
+    <ion-card-header>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      </ion-card-content>
+  </ion-card>
+
+  <button ion-button block color="primary" (click)="logout()">Se déconnecter</button>
+
+</ion-content>

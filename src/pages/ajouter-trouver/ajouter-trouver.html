@@ -1,0 +1,53 @@
+<!--
+  Generated template for the AjouterVolPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title> Enregistrement d'un engin retrouvé</ion-title>
+    <button ion-button menuToggle>
+      <!-- //<ion-icon name="menu">
+
+       </ion-icon>-->
+     </button>
+
+   </ion-navbar>
+
+ </ion-header>
+ <ion-content padding>
+   <ion-list>
+     <ion-item>
+       <ion-label  color="primary">Date</ion-label>
+       <ion-input  type="date" [(ngModel)]="retrouverData.dateRetrouver"></ion-input>
+     </ion-item>
+
+     <ion-item>
+       <ion-label floating color="primary">Numéro plaque</ion-label>
+       <ion-input type="text" [(ngModel)]="retrouverData.numPlaque"></ion-input>
+     </ion-item>
+
+     <ion-item>
+       <ion-label floating color="primary">Numéro chassis</ion-label>
+       <ion-input type="text" [(ngModel)]="retrouverData.numChassis"></ion-input>
+     </ion-item>
+
+     <ion-item>
+       <ion-label floating color="primary">Lieu</ion-label>
+       <ion-input type="text" [(ngModel)]="retrouverData.lieu" ></ion-input>
+     </ion-item>
+
+     <ion-item>
+       <ion-label floating color="primary">Indentifiant ant voleur  </ion-label>
+       <ion-input type="text" [(ngModel)]="retrouverData.idVoleur" ></ion-input>
+     </ion-item>
+
+     <ion-item>
+       <ion-label floating color="primary">Autres </ion-label>
+       <ion-input  type="text" [(ngModel)]="retrouverData.autres"  ></ion-input>
+     </ion-item>
+     <button ion-button block color="primary" (click)="newRetrouver()">Enregistrer engin retrouvé</button>
+ </ion-list>
+ </ion-content>

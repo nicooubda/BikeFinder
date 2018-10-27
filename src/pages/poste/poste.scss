@@ -1,0 +1,26 @@
+page-poste {
+  ion-alert {
+    &.alert-warning {
+      .alert-head {
+        background: map-get($colors, warning);
+        color: #fff;
+        margin-bottom: 10px;
+      }
+    }
+    &.alert-danger {
+      .alert-head {
+        background: map-get($colors, danger);
+        color: #fff;
+        margin-bottom: 10px;
+      }
+    }
+    &.alert-success {
+      .alert-head {
+        background: map-get($colors, success);
+        color: #fff;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+}

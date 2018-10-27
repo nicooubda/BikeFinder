@@ -1,0 +1,7 @@
+{
+  "name": "BikeFinder",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

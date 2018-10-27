@@ -1,0 +1,80 @@
+{
+  "name": "BikeFinder",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "start": "ionic-app-scripts serve",
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint"
+  },
+  "dependencies": {
+    "@angular/animations": "5.2.11",
+    "@angular/common": "5.2.11",
+    "@angular/compiler": "5.2.11",
+    "@angular/compiler-cli": "5.2.11",
+    "@angular/core": "5.2.11",
+    "@angular/forms": "5.2.11",
+    "@angular/http": "5.2.11",
+    "@angular/platform-browser": "5.2.11",
+    "@angular/platform-browser-dynamic": "5.2.11",
+    "@ionic-native/admob-pro": "^4.16.0",
+    "@ionic-native/core": "~4.12.0",
+    "@ionic-native/email-composer": "^4.15.0",
+    "@ionic-native/network": "^4.15.0",
+    "@ionic-native/sms": "^4.14.0",
+    "@ionic-native/splash-screen": "~4.12.0",
+    "@ionic-native/status-bar": "~4.12.0",
+    "@ionic/pro": "2.0.3",
+    "@ionic/storage": "2.1.3",
+    "@mobiscroll/angular-lite": "^4.3.2",
+    "angular-linky": "^1.2.2",
+    "angular2-moment": "^1.9.0",
+    "chart.js": "^2.7.3",
+    "cordova-admobsdk": "^7.35.0",
+    "cordova-android": "7.1.1",
+    "cordova-browser": "5.0.4",
+    "cordova-ios": "4.5.5",
+    "cordova-plugin-admobpro": "2.35.0",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-email-composer": "^0.8.15",
+    "cordova-plugin-extension": "1.5.4",
+    "cordova-plugin-ionic-keyboard": "^2.1.3",
+    "cordova-plugin-ionic-webview": "^2.2.0",
+    "cordova-plugin-network-information": "^2.0.1",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-sms-plugin": "^0.1.13",
+    "ionic-angular": "3.9.2",
+    "ionicons": "3.0.0",
+    "rxjs": "5.5.11",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "3.2.0",
+    "@ionic/lab": "1.0.9",
+    "typescript": "~2.6.2"
+  },
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-sms-plugin": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-email-composer": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}

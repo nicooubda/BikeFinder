@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Postes</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-buttons end="">
+      <button ion-button="" icon-only="" (click)="onNewPoste()">
+
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>LISTE DES POSTES</h2>
+
+  <ion-card *ngFor = "let item of dataSet">
+    <ion-item>
+      <ion-icon name = "trash" item-right (click)="deletePoste(item.id)" > </ion-icon>
+    <ion-card-content>
+
+    <p [innerHTML]="item.nomPoste"></p>
+<span> {{item.numPoste}}</span>
+
+  </ion-card-content>
+    </ion-item>
+  </ion-card>
+
+</ion-content>
