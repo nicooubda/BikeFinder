@@ -35,7 +35,7 @@
     "chart.js": "^2.7.3",
     "cordova-admobsdk": "^7.35.0",
     "cordova-android": "7.1.1",
-    "cordova-browser": "5.0.4",
+    "cordova-browser": "6.0.0",
     "cordova-ios": "4.5.5",
     "cordova-plugin-admobpro": "2.35.0",
     "cordova-plugin-device": "^2.0.2",
